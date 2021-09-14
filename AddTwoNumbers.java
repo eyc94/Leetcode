@@ -119,8 +119,12 @@ public class AddTwoNumbers {
 
         ListNode scanner = result;
         while (scanner != null) {
-            System.out.print(scanner.val + " -> ");
+            System.out.print(scanner.val);
+            if (scanner.next != null) {
+                System.out.print(" -> ");
+            }
             scanner = scanner.next;
         }
+        System.out.println();
     }
 }
