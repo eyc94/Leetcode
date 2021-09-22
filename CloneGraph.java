@@ -102,7 +102,7 @@ public class CloneGraph {
             Node clonedNode = new Node(node.val);
             // Add the mapping of old node to cloned node into the hash map.
             map.put(node, clonedNode);
-            // Iterate through our node's neighbors.
+            // Iterate through our current node's neighbors.
             for (Node neighbor : node.neighbors) {
                 // Add to the cloned node's neighbors list the result of calling the function
                 // again on the neighbor node. This is the recursive call.
