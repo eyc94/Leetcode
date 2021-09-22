@@ -106,6 +106,8 @@ public class CloneGraph {
             for (Node neighbor : node.neighbors) {
                 // Add to the cloned node's neighbors list the result of calling the function
                 // again on the neighbor node. This is the recursive call.
+                // This will recursively call the function on every neighbor until we reach a
+                // node whose neighbors are all visited.
                 clonedNode.neighbors.add(makeClone(neighbor, map));
             }
         }
