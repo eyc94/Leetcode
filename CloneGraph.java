@@ -52,7 +52,7 @@ public class CloneGraph {
 
     /*
      * Time Complexity: O(V + E) because we iterate through each node and its
-     * neighbors.
+     * neighbors. V is the number of vertices and E is the number of edges.
      * 
      * Space Complexity: O(V + E) because we store a mapping of all nodes and its
      * neighbors in our HashMap.
