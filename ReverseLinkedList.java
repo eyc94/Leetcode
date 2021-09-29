@@ -82,7 +82,7 @@ public class ReverseLinkedList {
             if (scanner.next == null) {
                 System.out.println(scanner.val);
             } else {
-                System.out.print(scanner.val + "-> ");
+                System.out.print(scanner.val + " -> ");
             }
             scanner = scanner.next;
         }
@@ -97,7 +97,7 @@ public class ReverseLinkedList {
             if (scanner.next == null) {
                 System.out.println(scanner.val);
             } else {
-                System.out.print(scanner.val + "-> ");
+                System.out.print(scanner.val + " -> ");
             }
             scanner = scanner.next;
         }
